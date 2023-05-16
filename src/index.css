@@ -1,0 +1,39 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    padding: 60px;
+}
+
+input {
+    color: gray;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.class_GifGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.class_GifGridItem {
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.class_GifGridItem p {
+    padding: 5px;
+    text-align: center;
+}
+
+.class_GifGridItem img {
+    max-height: 170px;
+
+}
